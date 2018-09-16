@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="css/regform.css">
+    <script src="js/jquery3.3.1.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/regform.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+</head>
+
+<body>
+    <h2>MITE Placement Registration form</h2>
+    <hr>
+    <button id="btnsub" class="regstu" style='float: right;margin-bottom: =10px;'>Register</button>
+    <div id="dialog" style="display: none">
+    <form id="regform">
+        <p id="container">
+            <label>USN <span id="star">*</span></label>
+            <input type="text" name="usn" id="usn" class="required inpreg">
+
+        </p>
+        <p id="container">
+            <label>Name <span id="star">*</span></label>
+            <input type="text" name="name" id="name" class="required inpreg">
+
+        </p>
+        <p id="container">
+            <label>Email <span id="star">*</span></label>
+            <input type="text" name="email" id="email" class="required inpreg">
+
+        </p>
+        <p id="container">
+            <label>Mobile <span id="star">*</span></label>
+            <input type="text" name="mobile" id="mobile" class="required inpreg">
+
+        </p>
+        <p>
+            <label>Course<span id="star">*</span></label>
+            <select class="required" name="course" id="course">
+        <option value="">Select your branch</option>
+        <option value="ECE">ECE</option>
+        <option value="CSE">CSE</option>
+        <option value="ISE">ISE</option>
+        <option value="MECH">MECH</option>
+        <option value="MTR">MTR</option>
+        </select>
+        </p>
+        <p id="container">
+            <label>Percentage <span id="star">*</span></label>
+            <input type="text" name="percentage" id="percentage" class="required inpreg">
+
+        </p>
+        <p id="container">
+            <label>DOB <span id="star">*</span></label>
+            <input type="text" name="dob" id="dob" class="required inpreg">
+
+        </p>
+        <p id="container">
+            <label>&nbsp;</label>
+            <input type="button" value="Register" id="btnsub" class="submit">
+            <input type="reset" value="Clear" id="btnclr" class="reset">
+
+        </p>
+
+
+    </form>
+    </div>
+    <div id="content"></div>
+</body>
+
+</html>

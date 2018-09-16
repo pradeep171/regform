@@ -1,0 +1,41 @@
+label{
+    width: 120px;
+    float: left;
+}
+#star{
+    color: red;
+}
+label.error{
+    float: none;
+    color: red;
+    padding-left: 20px;
+}
+input.inpreg{
+    width: 250px;
+    height: 15px;
+}
+#btnsub{
+    background-color: blue;
+    color: white;
+    width: 100px;
+}
+#btnclr{
+    background-color: blue;
+    color: white;
+    width: 80px;
+}
+#course{
+    width: 250px;
+    height: 20px;
+}
+#dialog{
+    background-color: lavender;
+}
+h3{
+    text-align: center;
+    color: maroon;
+}
+th{
+    color: white;
+    background-color: lightblue;
+}
